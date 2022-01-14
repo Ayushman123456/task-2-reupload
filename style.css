@@ -1,0 +1,103 @@
+.body{
+    font-family: Montserrat;
+
+}
+.text1{
+    font-size: 1vw;
+}
+.text2{
+    font-size: 4vw;
+    font-weight: 400;
+}
+.img1{
+    
+        display: block;
+        width: 98%;
+        height: auto;
+        border-radius: 2%;
+}
+.search-box{
+    width: 100%;
+    font-size: 100%;
+    float: right;
+    /* margin-left: 100% */
+}
+
+
+
+
+
+
+
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.search-box{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin: auto;
+    position: relative;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    
+}
+.iconholder{
+   display: flex;
+   justify-content: right;
+    
+}
+.typetosearch{
+    
+    width: 65%;
+   
+}
+.icon{
+   width: 20%;
+    height: auto;
+    margin-left: 1vw;
+    margin-right: 0.3vw;
+    
+
+}
+
+::placeholder {
+   
+    width: 80%;
+    font-size:100%;
+    padding: 2vh 0vh 2vh 2vh;
+    
+}
+
+.flexbox{
+    
+        display: flex;
+        justify-content: right;
+    
+}
